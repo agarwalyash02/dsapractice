@@ -8,7 +8,7 @@ int main( ){
 		printf( "test.c file failed to open." ) ;
 	}
 	else {
-		printf(“File opened.\n") ;
+		printf("File opened.\n");
 		if ( strlen ( dataToBeWritten ) > 0 ) {
 			fputs(dataToBeWritten, filePointer) ;
 			fputs("\n", filePointer) ;
